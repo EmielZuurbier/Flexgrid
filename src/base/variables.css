@@ -1,0 +1,49 @@
+:root {
+	--flex-font-size: 16px;
+	--flex-width: 100%;
+	--flex-max-width: 73.125em;
+	--flex-gutter: 1em;
+	--flex-negative-gutter: calc(var(--flex-gutter) * -1);
+	--flex-room: calc(var(--flex-gutter) * 2);
+	--flex-space: auto;
+	--flex-1-col: 8.333333333%;
+	--flex-2-col: 16.66666667%;
+	--flex-3-col: 25%;
+	--flex-4-col: 33.33333333%;
+	--flex-5-col: 41.66666667%;
+	--flex-6-col: 50%;
+	--flex-7-col: 58.33333333%;
+	--flex-8-col: 66.66666666%;
+	--flex-9-col: 75%;
+	--flex-10-col: 83.33333333%;
+	--flex-11-col: 91.66666667%;
+	--flex-12-col: 100%;
+	--flex-order: 0;
+	--flex-order-first: -1;
+	--flex-order-middle: 0;
+	--flex-order-last: 1;
+}
+
+@media all and (min-width: 30em) {
+
+	:root {
+		--flex-max-width: 44em;
+	}
+
+}
+
+@media all and (min-width: 48em) {
+
+	:root {
+		--flex-max-width: 60em;
+	}
+
+}
+
+@media all and (min-width: 64em) {
+
+	:root {
+		--flex-max-width: 73.125em;
+	}
+
+}

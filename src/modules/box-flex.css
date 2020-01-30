@@ -1,0 +1,209 @@
+[class^="box-flex"] {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+
+.box-flex-1 {
+	flex-grow: 1;
+}
+
+.box-flex-2 {
+	flex-grow: 2;
+}
+
+.box-flex-3 {
+	flex-grow: 3;
+}
+
+.box-flex-4 {
+	flex-grow: 4;
+}
+
+.box-flex-5 {
+	flex-grow: 5;
+}
+
+.box-flex-6 {
+	flex-grow: 6;
+}
+
+.box-flex-7 {
+	flex-grow: 7;
+}
+
+.box-flex-8 {
+	flex-grow: 8;
+}
+
+.box-flex-9 {
+	flex-grow: 9;
+}
+
+.box-flex-10 {
+	flex-grow: 10;
+}
+
+.box-flex-11 {
+	flex-grow: 11;
+}
+
+.box-flex-12 {
+	flex-grow: 12;
+}
+
+@media all and (min-width: 48em) {
+
+	.box-sm-flex-1 {
+		flex-grow: 1;
+	}
+	
+	.box-sm-flex-2 {
+		flex-grow: 2;
+	}
+	
+	.box-sm-flex-3 {
+		flex-grow: 3;
+	}
+	
+	.box-sm-flex-4 {
+		flex-grow: 4;
+	}
+	
+	.box-sm-flex-5 {
+		flex-grow: 5;
+	}
+	
+	.box-sm-flex-6 {
+		flex-grow: 6;
+	}
+	
+	.box-sm-flex-7 {
+		flex-grow: 7;
+	}
+	
+	.box-sm-flex-8 {
+		flex-grow: 8;
+	}
+	
+	.box-sm-flex-9 {
+		flex-grow: 9;
+	}
+	
+	.box-sm-flex-10 {
+		flex-grow: 10;
+	}
+	
+	.box-sm-flex-11 {
+		flex-grow: 11;
+	}
+	
+	.box-sm-flex-12 {
+		flex-grow: 12;
+	}
+
+}
+
+@media all and (min-width: 64em) {
+
+	.box-md-flex-1 {
+		flex-grow: 1;
+	}
+	
+	.box-md-flex-2 {
+		flex-grow: 2;
+	}
+	
+	.box-md-flex-3 {
+		flex-grow: 3;
+	}
+	
+	.box-md-flex-4 {
+		flex-grow: 4;
+	}
+	
+	.box-md-flex-5 {
+		flex-grow: 5;
+	}
+	
+	.box-md-flex-6 {
+		flex-grow: 6;
+	}
+	
+	.box-md-flex-7 {
+		flex-grow: 7;
+	}
+	
+	.box-md-flex-8 {
+		flex-grow: 8;
+	}
+	
+	.box-md-flex-9 {
+		flex-grow: 9;
+	}
+	
+	.box-md-flex-10 {
+		flex-grow: 10;
+	}
+	
+	.box-md-flex-11 {
+		flex-grow: 11;
+	}
+	
+	.box-md-flex-12 {
+		flex-grow: 12;
+	}
+
+}
+
+@media all and (min-width: 80em) {
+
+	.box-lg-flex-1 {
+		flex-grow: 1;
+	}
+	
+	.box-lg-flex-2 {
+		flex-grow: 2;
+	}
+	
+	.box-lg-flex-3 {
+		flex-grow: 3;
+	}
+	
+	.box-lg-flex-4 {
+		flex-grow: 4;
+	}
+	
+	.box-lg-flex-5 {
+		flex-grow: 5;
+	}
+	
+	.box-lg-flex-6 {
+		flex-grow: 6;
+	}
+	
+	.box-lg-flex-7 {
+		flex-grow: 7;
+	}
+	
+	.box-lg-flex-8 {
+		flex-grow: 8;
+	}
+	
+	.box-lg-flex-9 {
+		flex-grow: 9;
+	}
+	
+	.box-lg-flex-10 {
+		flex-grow: 10;
+	}
+	
+	.box-lg-flex-11 {
+		flex-grow: 11;
+	}
+	
+	.box-lg-flex-12 {
+		flex-grow: 12;
+	}
+
+}

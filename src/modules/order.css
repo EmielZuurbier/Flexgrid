@@ -1,0 +1,59 @@
+.box-order-first {
+	order: var(--flex-order-first);
+}
+
+.box-order {
+	order: var(--flex-order);
+}
+
+.box-order-last {
+	order: var(--flex-order-last);
+}
+
+@media all and (min-width: 48em) {
+
+	.box-sm-order-first {
+		order: var(--flex-order-first);
+	}
+	
+	.box-sm-order {
+		order: var(--flex-order);
+	}
+	
+	.box-sm-order-last {
+		order: var(--flex-order-last);
+	}
+
+}
+
+@media all and (min-width: 64em) {
+
+	.box-md-order-first {
+		order: var(--flex-order-first);
+	}
+
+	.box-md-order {
+		order: var(--flex-order);
+	}
+
+	.box-md-order-last {
+		order: var(--flex-order-last);
+	}
+
+}
+
+@media all and (min-width: 80em) {
+
+	.box-lg-order-first {
+		order: var(--flex-order-first);
+	}
+
+	.box-lg-order {
+		order: var(--flex-order);
+	}
+
+	.box-lg-order-last {
+		order: var(--flex-order-last);
+	}
+
+}

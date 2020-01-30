@@ -1,0 +1,38 @@
+{
+  "name": "flexgrid",
+  "version": "2.0.0",
+  "description": "Flexbox based 12 colom grid system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmielZuurbier/Flexgrid.git"
+  },
+  "keywords": [
+    "CSS",
+    "Flexbox",
+    "Grid",
+    "Columns"
+  ],
+  "author": "Emiel Zuurbier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmielZuurbier/Flexgrid/issues"
+  },
+  "homepage": "https://github.com/EmielZuurbier/Flexgrid#readme",
+  "browserslist": [
+    "defaults",
+    "IE > 10",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
+  "dependencies": {
+    "base": "^3.0.0",
+    "modules": "^0.4.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}

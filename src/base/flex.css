@@ -1,0 +1,96 @@
+.flex-container {
+	position: relative;
+	font-size: var(--flex-font-size);
+	width: var(--flex-width);
+	max-width: var(--flex-max-width);
+	padding-left: var(--flex-gutter);
+	padding-right: var(--flex-gutter);
+	margin-left: var(--flex-space);
+	margin-right: var(--flex-space);
+}
+
+[class^="flex-row"],
+[class^="flex-column"] {
+	display: flex;
+	margin-left: var(--flex-negative-gutter);
+	margin-right: var(--flex-negative-gutter);
+}
+
+.flex-row {
+	flex-flow: row wrap;
+}
+
+.flex-row-reverse {
+	flex-flow: row-reverse wrap;
+}
+
+.flex-column {
+	flex-flow: column wrap;
+}
+
+.flex-column-reverse {
+	flex-flow: column-reverse wrap;
+}
+
+@media all and (min-width: 48em) {
+
+
+	.flex-sm-row {
+		flex-flow: row wrap;
+	}
+	
+	.flex-sm-row-reverse {
+		flex-flow: row-reverse wrap;
+	}
+	
+	.flex-sm-column {
+		flex-flow: column wrap;
+	}
+	
+	.flex-sm-column-reverse {
+		flex-flow: column-reverse wrap;
+	}
+
+}
+
+@media all and (min-width: 64em) {
+
+
+	.flex-md-row {
+		flex-flow: row wrap;
+	}
+	
+	.flex-md-row-reverse {
+		flex-flow: row-reverse wrap;
+	}
+	
+	.flex-md-column {
+		flex-flow: column wrap;
+	}
+	
+	.flex-md-column-reverse {
+		flex-flow: column-reverse wrap;
+	}
+
+}
+
+@media all and (min-width: 80em) {
+
+
+	.flex-lg-row {
+		flex-flow: row wrap;
+	}
+	
+	.flex-lg-row-reverse {
+		flex-flow: row-reverse wrap;
+	}
+	
+	.flex-lg-column {
+		flex-flow: column wrap;
+	}
+	
+	.flex-lg-column-reverse {
+		flex-flow: column-reverse wrap;
+	}
+
+}
