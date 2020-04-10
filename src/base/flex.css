@@ -1,3 +1,12 @@
+:root {
+	--flex-flow-pairs: (
+		row: row wrap, 
+		reverse: row-reverse wrap, 
+		column: column wrap, 
+		column-reverse: column-reverse wrap
+	)
+}
+
 .flex-container {
 	position: relative;
 	font-size: var(--flex-font-size);
@@ -16,81 +25,46 @@
 	margin-right: var(--flex-negative-gutter);
 }
 
-.flex-row {
-	flex-flow: row wrap;
-}
+@each $class, $value in var(--flex-flow-pairs) {
 
-.flex-row-reverse {
-	flex-flow: row-reverse wrap;
-}
+	.flex-$(class) {
+		flex-flow: $(value);
+	}
 
-.flex-column {
-	flex-flow: column wrap;
-}
-
-.flex-column-reverse {
-	flex-flow: column-reverse wrap;
 }
 
 @media all and (min-width: 48em) {
 
+	@each $class, $value in var(--flex-flow-pairs) {
 
-	.flex-sm-row {
-		flex-flow: row wrap;
-	}
+		.flex-sm-$(class) {
+			flex-flow: $(value);
+		}
 	
-	.flex-sm-row-reverse {
-		flex-flow: row-reverse wrap;
-	}
-	
-	.flex-sm-column {
-		flex-flow: column wrap;
-	}
-	
-	.flex-sm-column-reverse {
-		flex-flow: column-reverse wrap;
 	}
 
 }
 
 @media all and (min-width: 64em) {
 
+	@each $class, $value in var(--flex-flow-pairs) {
 
-	.flex-md-row {
-		flex-flow: row wrap;
-	}
+		.flex-md-$(class) {
+			flex-flow: $(value);
+		}
 	
-	.flex-md-row-reverse {
-		flex-flow: row-reverse wrap;
-	}
-	
-	.flex-md-column {
-		flex-flow: column wrap;
-	}
-	
-	.flex-md-column-reverse {
-		flex-flow: column-reverse wrap;
 	}
 
 }
 
 @media all and (min-width: 80em) {
 
+	@each $class, $value in var(--flex-flow-pairs) {
 
-	.flex-lg-row {
-		flex-flow: row wrap;
-	}
+		.flex-lg-$(class) {
+			flex-flow: $(value);
+		}
 	
-	.flex-lg-row-reverse {
-		flex-flow: row-reverse wrap;
-	}
-	
-	.flex-lg-column {
-		flex-flow: column wrap;
-	}
-	
-	.flex-lg-column-reverse {
-		flex-flow: column-reverse wrap;
 	}
 
 }
